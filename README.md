@@ -4,7 +4,7 @@ This application was built with `create-react-app`.
 
 ### Set Up
 
-Clone down this repo.
+Clone down this repo
 
 Because you don't want to be pushing your updates to this boilerplate repository, we're going to have to do a few things to get set up with your own repository.
 
