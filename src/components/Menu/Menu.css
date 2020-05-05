@@ -1,0 +1,22 @@
+.menu-aside {
+  float: left;
+  display: block;
+
+  width: 18vw;
+  padding-top: 1%;
+}
+
+.menu-item {
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 2px solid grey;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.menu-item:hover {
+  background-color: grey;
+}
+
+h2 {
+  padding-bottom: 8%;
+}

@@ -1,0 +1,24 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+
+}
+.whats-new-header {
+  font-size: 3em;
+}
+
+.search-input {
+  margin-top: 1%;
+  height: 70%;
+  width: 50%;
+}
+
+.search-button {
+  margin-right: 2%;
+  margin-top: 1%;
+  height: 70%;
+  width: 20%;
+}
+
