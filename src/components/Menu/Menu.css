@@ -1,7 +1,6 @@
 .menu-aside {
   float: left;
   display: block;
-
   width: 18vw;
   padding-top: 1%;
 }
@@ -10,13 +9,26 @@
   margin-top: 5%;
   margin-left: 5%;
   border: 2px solid grey;
-  border-radius: 5%;
   cursor: pointer;
 }
+
 .menu-item:hover {
-  background-color: grey;
+  border-left: 10px solid #DB5461;
+}
+.menu-icon {
+  padding-top: 6%;
+  width: 20%;
 }
 
 h2 {
   padding-bottom: 8%;
+  font-size: 2em;
+}
+
+.menu-item-active {
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 2px solid grey;
+  border-left: 10px solid #DB5461;
+  cursor: pointer;
 }

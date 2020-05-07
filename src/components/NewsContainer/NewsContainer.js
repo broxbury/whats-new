@@ -3,20 +3,21 @@ import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle'
 
 const NewsContainer = (props) => {
-  const articles  = props.news.entertainment
+  
+  const articles = props.currentTopic
+
+  const articlesToDisplay = articles.map(item => {
+    return (
+      <NewsArticle
+        key={item.id}
+        {...item}
+      />
+    )
+  })
+
   return (
     <section className="news-card-container">
-      {articles.map(item => {
-        return (
-          <NewsArticle
-            key={item.id}
-            headline={item.headline}
-            img={item.img}
-            description={item.description}
-            url={item.url}
-          />
-        )
-      })}
+      {articlesToDisplay}
     </section>
    
   )
