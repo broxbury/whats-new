@@ -1,22 +1,29 @@
+* {
+  font-family: sans-serif;
+}
+
 .header-container {
   background-color: #E3F2FD;
   display: flex;
   justify-content: space-between;
   width: 100%;
   height: 5rem;;
-
 }
 .whats-new-header {
   font-size: 3em;
+  padding-top: .2em;
+  padding-left: .5em;
 }
 
 .search-input {
   background-color: #E3F2FD;
-  border: 1px solid black;
+  border: .5px solid black;
   margin-top: 1%;
   height: 70%;
   width: 50%;
   font-size: 1.5rem;
+  padding-left: 13%;
+  border-radius: 3px;
 }
 
 .search-button {
@@ -24,5 +31,12 @@
   margin-top: 1%;
   height: 70%;
   width: 20%;
+  font-size: 1.5rem;
+  border-radius: 3px;
 }
 
+.whats-new-header-red {
+  font-size: 3em;
+  padding-top: .2em;
+  color: #DB5461;
+}

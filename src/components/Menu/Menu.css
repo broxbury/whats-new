@@ -1,3 +1,4 @@
+
 .menu-aside {
   float: left;
   display: block;
@@ -10,6 +11,7 @@
   margin-left: 5%;
   border: 2px solid grey;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 .menu-item:hover {
@@ -22,7 +24,7 @@
 
 h2 {
   padding-bottom: 8%;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 .menu-item-active {

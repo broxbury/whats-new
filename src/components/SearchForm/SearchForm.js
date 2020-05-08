@@ -23,7 +23,7 @@ class SearchForm extends React.Component {
     return (
       <header>
         <form className="header-container" onSubmit={(e) => this.submitInput(e)}>
-          <h1 className="whats-new-header">What's New?</h1>
+          <h1 className="whats-new-header">What's</h1><h1 className="whats-new-header-red">New?</h1>
           <input onChange={(e) => this.updateInput(e)} value={this.state.search} className="search-input" type="text" placeholder="SEARCH ARTICLES HERE"></input>
           <button className="search-button">Search</button>
         </form>

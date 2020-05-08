@@ -7,7 +7,7 @@ const NewsArticle = (props) => {
   
   return (
     <section data-testid="newsArticle" className="article-card">
-      <img className="article-img" src={img}></img>
+      <img className="article-img" src={img} alt={headline}></img>
       <section className="article-info">
         <h3>{headline}</h3>
         <p>{description}</p>
@@ -15,7 +15,7 @@ const NewsArticle = (props) => {
       <hr/>
       <a href={url}>
       <section className="article-footer">
-        <img className="url-link" src={interfaceImg}></img>
+        <img className="url-link" src={interfaceImg} alt={headline}></img>
       </section>
       </a>
     </section>

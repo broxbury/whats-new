@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 describe('NewsArticle', () => {
-  it.only('displays correct information in the NewsArticle', () => {
+  it('displays correct information in the NewsArticle', () => {
     const { getByText } = render(<NewsArticle
                                   id={1}
                                   headline="The Who postpones Denver Concert at the Pepsi Center"
