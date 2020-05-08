@@ -15,12 +15,13 @@
 }
 
 .article-info {
- height: 11rem;
+ height: 10rem;
 }
 
 .article-footer {
   cursor: pointer;
-  background-color: white
+  background-color: white;
+  height: 4.4em;
 }
 
 .url-link {

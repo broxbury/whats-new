@@ -24,11 +24,10 @@ class Menu extends React.Component {
   }
 
   selectTopic = (e) => {
-    this.props.selectTopic(e.target.id);
-    const toggleActiveMenuItem = this.state.menuItems.find(card => card.id === e.target.id)
-    toggleActiveMenuItem.isSelected = !toggleActiveMenuItem.isSelected;
-    const deactivateOthers = this.state.menuItems.filter(card => card.id !== e.target.id)
-    deactivateOthers.map(card => card.isSelected = false);
+    const itemId = e.target.id
+    const updatedState = [...this.state.menuItems];
+    this.props.selectTopic(itemId);
+    updatedState.map(item => item.id !== itemId ? item.isSelected = false : item.isSelected = true);
   }
 
   render() {
